@@ -11,8 +11,8 @@ import telebot
 #
 #sendMessage("Hello")
 
-bot = telebot.TeleBot("7380073491:AAGWGVAsQTNSKgxnfwN_ap-cKZZ0F6h3sYw")
-chat_id = 1655740991
+bot = telebot.TeleBot("")#Put here your bot's ID
+chat_id =  #Put here ID of your telegram profile
 print("Create password|Придумайте пароль: ")
 passwd = str(input())
 @bot.message_handler(commands=['start', 'help'])
